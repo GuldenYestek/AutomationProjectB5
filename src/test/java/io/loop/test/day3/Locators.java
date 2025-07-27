@@ -15,6 +15,8 @@ public class Locators {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-blink-features=AutomationControlled");
 
+        // just a note
+
         // create the driver object
         WebDriver driver = new ChromeDriver(options);
 
