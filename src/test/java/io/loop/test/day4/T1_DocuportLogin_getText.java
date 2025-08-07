@@ -19,7 +19,7 @@ public class T1_DocuportLogin_getText {
      * verify error message - please enter password
      */
 //get the driver and navigate to the docuport page
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         WebDriver driver = WebDriverUtil.getDriver(GeneralConstants.CHROME);
         driver.manage().window().maximize();
         driver.get(DocuportConstants.DOCUPORT_TEST);
@@ -34,11 +34,15 @@ public class T1_DocuportLogin_getText {
         WebElement loginButton = driver.findElement(By.className("v-btn__content"));
         loginButton.click();
 
+        //wait time
+        Thread.sleep(3000);
         // get error message
 
         WebElement errorMessage = driver.findElement(By.className("v-messages__message"));
         String actualErrorMessage = errorMessage.getText();
 
+        //wait time
+        Thread.sleep(3000);
         // validation
 
         if(actualErrorMessage.equals(DocuportConstants.ERROR_MESSAGE_FOR_EMPTY_PASSWORD)){
