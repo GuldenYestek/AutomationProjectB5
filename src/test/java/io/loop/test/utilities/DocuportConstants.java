@@ -14,7 +14,7 @@ public class DocuportConstants {
 
 
     // message
-    public static final String ERROR_MESSAGE_FOR_EMPTY_PASSWORD= "Please enter password";
+    public static final String ERROR_MESSAGE_FOR_EMPTY_PASSWORD= "Please enter your password";
 
 
     //logo
@@ -23,6 +23,11 @@ public class DocuportConstants {
     //dropdown menu
 
     public static final String EXPECTED_DROP_DOWN_MENU = "BG";
+
+    //
+    public static final String ERROR_MESSAGE_FOR_EMPTY_USERNAME_OR_EMAIL= "Please enter your username or email address";
+
+
 
 
 }
