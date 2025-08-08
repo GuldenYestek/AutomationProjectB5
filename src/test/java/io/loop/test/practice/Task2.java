@@ -44,7 +44,7 @@ public class Task2 {
 
         // continue button
 
-        WebElement continueButton = driver.findElement(By.cssSelector("button.v-btn.success span.v-btn__content"));
+        WebElement continueButton = driver.findElement(By.cssSelector("button[type='submit']"));
         continueButton.click();
 
          //wait time
@@ -56,13 +56,12 @@ public class Task2 {
         // use getText() method
         String actualDropDownMenu = DropDownMenu.getText();
 
-
         // validation
         if (actualDropDownMenu.equals(DocuportConstants.EXPECTED_DROP_DOWN_MENU)) {
-            System.out.println("expected Forgot Password: \""
+            System.out.println("expected Drop Down Menu: \""
                     + DocuportConstants.EXPECTED_DROP_DOWN_MENU + "\", matches actual drop down menu: \"" + actualDropDownMenu + "\" => TEST PASS");
         } else {
-            System.out.println("expected Forgot Password:\""
+            System.out.println("expected Drop Down Menu:\""
                     + DocuportConstants.EXPECTED_DROP_DOWN_MENU + "\", DOES NOT match actual drop down menu: \"" + actualDropDownMenu + "\" => TEST FAIL");
         }
 
