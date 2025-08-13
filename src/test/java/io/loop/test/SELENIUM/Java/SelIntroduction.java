@@ -1,4 +1,4 @@
-package io.loop.test.SELENIUM;
+package io.loop.test.SELENIUM.Java;
 
 
 import org.openqa.selenium.WebDriver;
