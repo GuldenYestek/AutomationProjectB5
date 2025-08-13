@@ -28,6 +28,10 @@ public class DocuportConstants {
     public static final String ERROR_MESSAGE_FOR_EMPTY_USERNAME_OR_EMAIL= "Please enter your username or email address";
 
 
+    // forgot password url
+    public static final String FORGOT_PASSWORD_URL = "https://beta.docuport.app/reset-password";
 
+    public static final String RESET_PASSWORD_MESSAGE = "Enter the email address associated with your account";
 
+    public static final String EMAIL_FOR_RESET_PASSWORD = "forgotpasswordg1@gmail.com";
 }
