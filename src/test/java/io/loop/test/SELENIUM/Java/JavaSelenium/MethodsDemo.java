@@ -1,4 +1,4 @@
-package io.loop.test.SELENIUM.Java;
+package io.loop.test.SELENIUM.Java.JavaSelenium;
 
 public class MethodsDemo {
     public static void main(String[] args) {

@@ -11,7 +11,7 @@ public class DocuportConstants {
     public static final String USERNAME_SUPERVISOR = "b1g1_supervisor@gmail.com";
     public static final String USERNAME_EMPLOYEE = "b1g1_employee@gmail.com";
     public static final String PASSWORD_CLIENT = "Group1";
-
+    public static final String PASSWORD = "Group1";
 
     // message
     public static final String ERROR_MESSAGE_FOR_EMPTY_PASSWORD= "Please enter your password";
