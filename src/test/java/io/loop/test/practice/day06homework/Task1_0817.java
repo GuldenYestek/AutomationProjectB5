@@ -1,4 +1,4 @@
-package io.loop.test.practice;
+package io.loop.test.practice.day06homework;
 /*
 go to http://the-internet.herokuapp.com/dropdown
 validate "Please select an option" is selected by default
@@ -7,7 +7,6 @@ Choose option 2 and validate that it is selected
 Validate dropdown name is "Dropdown List"
  */
 
-import io.loop.test.utilities.DocuportConstants;
 import io.loop.test.utilities.GeneralConstants;
 import io.loop.test.utilities.WebDriverUtil;
 import org.openqa.selenium.By;

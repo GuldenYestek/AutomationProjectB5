@@ -1,4 +1,4 @@
-package io.loop.test.practice;
+package io.loop.test.practice.day06homework;
 
 /*
 task2
@@ -15,7 +15,6 @@ import io.loop.test.utilities.WebDriverUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
