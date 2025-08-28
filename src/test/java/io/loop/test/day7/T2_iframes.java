@@ -62,6 +62,8 @@ public class T2_iframes extends TestBase {
         iframes = driver.findElements(By.xpath("//frame"));
         System.out.println("Iframe size: " + iframes.size());
 
+        driver.quit();
+
     }
 
 }
